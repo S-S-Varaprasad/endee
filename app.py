@@ -15,7 +15,7 @@ def main():
             break
             
         print("\n[1] Searching for relevant context...")
-        results = search(query, top_k=2)
+        results = search(query, top_k=5)
         
         if not results:
             continue
